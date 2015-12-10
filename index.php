@@ -15,7 +15,7 @@ function connect_db() {
 }
 
 /**
- * RedBean PHP for database.
+ * Create a new Slim container to customize.
  */
 $container = new Slim\Container;
 
