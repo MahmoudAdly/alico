@@ -1,0 +1,29 @@
+body {
+    max-width:1000px;
+    margin:0px auto;
+    color: #000;
+    background: none;
+    font-family: 'Droid Arabic Kufi', serif, arial !important;
+}
+select { font-family: 'Droid Arabic Kufi', serif, arial; }
+.center { text-align: center; }
+.right { text-align: right; }
+.left { text-align: left; }
+.justify { text-align:justify; }
+.rtl { direction: rtl; }
+.title { font-size: 32px; }
+.red-text {color: #f00;}
+.icon { vertical-align: middle; }
+.button { background-color: #F3843F !important; }
+.button:hover { background-color: #dc5400 !important; }
+#searchform {
+	width:100%;
+	padding-top:40px;
+}
+#resultstable {
+    width: 100%;
+    border: none;
+}
+#resultstable td { line-height: 1.5em; }
+.extra-info { opacity: 0.7; }
+.footer { margin-bottom: 2em; }
