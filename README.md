@@ -4,27 +4,30 @@ The is a simple and personal tool to convert my MetLife Alico insurance excel sh
 
 Though it was developed quickly as personal tool, you are free to fork and edit to meet your requirements in any similar uses.
 
-It is based on PHP5.5 using Slim Framework and React JS. It is a one-day hack so do not expect to see error-proof code or tests.
+It is based on PHP5.5 using Slim Framework and React JS.
+
+*Note*: It is a one-day hack so do not expect to see error-proof code or tests.
 
 Setup
 -----
 To setup the project on your server:
 
- - Clone the project
+1- Clone the project
 
- - Install composer dependencies
+2- Install composer dependencies
 
 
     php ./composer.phar install
 
- - Create a MySQL database.
- - Copy the .env template file and fill it with the database credentials.
+3- Create a MySQL database.
+
+4- Copy the .env template file and edit the database credentials.
 
 
     cp ./.env.php.template ./.env.php
     nano ./.env.php
 
- - Now the project is ready to start. It only needs data.
+5- Now the project is ready to start. It only needs data.
 
 Processing
 ----------
@@ -38,4 +41,4 @@ It will take a few minutes to process the file and create database entries.
 
 Usage
 -----
-You can view the online demo for [MetLife Alico](http://alico.thaghra.com/) to see how it looks like at the moment. It is a basic React JS application to query data according to the filters the user selects.
+You can view the online demo for [MetLife Alico](http://lab.thaghra.com/alico) to see how it looks like at the moment. It is a basic React JS application to query data according to the filters the user selects.
