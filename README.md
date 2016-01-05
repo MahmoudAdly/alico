@@ -27,7 +27,9 @@ To setup the project on your server:
     cp ./.env.php.template ./.env.php
     nano ./.env.php
 
-5- Now the project is ready to start. It only needs data.
+5- Check Slim Framework docs for web server configs: [Web Servers](http://www.slimframework.com/docs/start/web-servers.html)
+
+6- Now the project is ready to start. It only needs data.
 
 Processing
 ----------
@@ -41,4 +43,4 @@ It will take a few minutes to process the file and create database entries.
 
 Usage
 -----
-You can view the online demo for [MetLife Alico](http://lab.thaghra.com/alico) to see how it looks like at the moment. It is a basic React JS application to query data according to the filters the user selects.
+You can view the online demo for [MetLife Alico](http://alico.thaghra.com/) to see how it looks like at the moment. It is a basic React JS application to query data according to the filters the user selects.
