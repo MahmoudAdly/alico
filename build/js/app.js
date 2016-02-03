@@ -26,12 +26,12 @@ var SearchForm = React.createClass({
         url: self.props.citiesPath,
         dataType: 'json',
         cache: false,
-        success: (function (data) {
+        success: function (data) {
           self.setState({ cities: data.data });
-        }).bind(self),
-        error: (function (xhr, status, err) {
+        }.bind(self),
+        error: function (xhr, status, err) {
           console.error(self.props.citiesPath, status, err.toString());
-        }).bind(self)
+        }.bind(self)
       });
     }, 10);
 
@@ -42,12 +42,12 @@ var SearchForm = React.createClass({
         url: self.props.typesPath,
         dataType: 'json',
         cache: false,
-        success: (function (data) {
+        success: function (data) {
           self.setState({ types: data.data });
-        }).bind(self),
-        error: (function (xhr, status, err) {
+        }.bind(self),
+        error: function (xhr, status, err) {
           console.error(self.props.typesPath, status, err.toString());
-        }).bind(self)
+        }.bind(self)
       });
     }, 10);
 
@@ -58,12 +58,12 @@ var SearchForm = React.createClass({
         url: self.props.specialitiesPath,
         dataType: 'json',
         cache: false,
-        success: (function (data) {
+        success: function (data) {
           self.setState({ specialities: data.data });
-        }).bind(self),
-        error: (function (xhr, status, err) {
+        }.bind(self),
+        error: function (xhr, status, err) {
           console.error(self.props.specialitiesPath, status, err.toString());
-        }).bind(self)
+        }.bind(self)
       });
     }, 10);
   },
@@ -75,12 +75,12 @@ var SearchForm = React.createClass({
         dataType: 'json',
         data: { city: this.state.currentCity },
         cache: false,
-        success: (function (data) {
+        success: function (data) {
           this.setState({ districts: data.data });
-        }).bind(this),
-        error: (function (xhr, status, err) {
+        }.bind(this),
+        error: function (xhr, status, err) {
           console.error(this.props.districtsPath, status, err.toString());
-        }).bind(this)
+        }.bind(this)
       });
     });
   },
@@ -106,12 +106,12 @@ var SearchForm = React.createClass({
         speciality: this.state.currentSpeciality
       },
       cache: false,
-      success: (function (data) {
+      success: function (data) {
         this.props.onSearchResults(data.data);
-      }).bind(this),
-      error: (function (xhr, status, err) {
+      }.bind(this),
+      error: function (xhr, status, err) {
         console.error(this.props.placesPath, status, err.toString());
-      }).bind(this)
+      }.bind(this)
     });
   },
   render: function render() {
