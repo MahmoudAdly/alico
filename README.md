@@ -43,4 +43,4 @@ It will take a few minutes to process the file and create database entries.
 
 Usage
 -----
-You can view the online demo for [MetLife Alico](http://alico.thaghra.com/) to see how it looks like at the moment. It is a basic React JS application to query data according to the filters the user selects.
+You can view the online demo for [MetLife Alico](http://alico.thaghry.com/) to see how it looks like at the moment. It is a basic React JS application to query data according to the filters the user selects.
