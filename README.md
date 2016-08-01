@@ -8,6 +8,8 @@ It is based on PHP5.5 using Slim Framework and React JS.
 
 *Note*: It is a one-day hack so do not expect to see error-proof code or tests.
 
+![alt tag](http://thaghry.com/img/screenshots/alico-demo.png)
+
 Setup
 -----
 To setup the project on your server:
